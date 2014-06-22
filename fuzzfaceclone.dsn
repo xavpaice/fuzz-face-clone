@@ -1,0 +1,207 @@
+(pcb "/home/xav/Documents/valveamps/fuzz-face-clone/fuzzfaceclone.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(2014-jan-25)-product")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  50000 -50000  50000 -95000  145000 -95000  145000 -50000
+            50000 -50000)
+    )
+    (via "Via[0-1]_889:635_um")
+    (rule
+      (width 254)
+      (clearance 254.1)
+      (clearance 254.1 (type default_smd))
+      (clearance 63.5 (type smd_smd))
+    )
+  )
+  (placement
+    (component Capacitors_ThroughHole:Capacitor8x13RM3.8
+      (place C1 106000 -88000 front 270 (PN 2.2uF))
+      (place C3 127000 -76000 front 0 (PN 22uF))
+    )
+    (component Discret:C2
+      (place C2 127000 -66000 front 0 (PN 0.1uF))
+    )
+    (component "Connect:SIL-2"
+      (place P1 143000 -89000 front 270 (PN CONN_2))
+      (place P2 143000 -70000 front 90 (PN CONN_2))
+      (place P3 55000 -90000 front 270 (PN CONN_2))
+    )
+    (component Resistors_ThroughHole:Resistor_Horizontal_RM10mm
+      (place R1 95000 -66000 front 90 (PN 1M))
+      (place R2 89000 -66000 front 90 (PN 10K))
+      (place R3 71000 -66000 front 90 (PN 8K2))
+      (place R4 77000 -66000 front 90 (PN 820))
+      (place R5 83000 -66000 front 90 (PN 15K))
+      (place R6 66000 -91000 front 180 (PN 5K))
+    )
+    (component "Connect:SIL-3"
+      (place RV1 137000 -81000 front 270 (PN B100K))
+      (place RV3 137000 -69000 front 270 (PN A1M))
+    )
+    (component "Xav:TO92-EBC"
+      (place Q1 85000 -89000 front 270 (PN 2N3904))
+      (place Q2 76000 -89000 front 270 (PN 2N3904))
+    )
+  )
+  (library
+    (image Capacitors_ThroughHole:Capacitor8x13RM3.8
+      (outline (path signal 254  2032 3429  -2032 3429))
+      (outline (path signal 254  -2032 3429  -1651 3556))
+      (outline (path signal 254  -1651 3556  1651 3556))
+      (outline (path signal 254  1651 3556  2032 3429))
+      (outline (path signal 254  4065.98 0  3866.98 -1256.46  3289.45 -2389.93  2389.93 -3289.45
+            1256.46 -3866.98  0 -4065.98  -1256.46 -3866.98  -2389.93 -3289.45
+            -3289.45 -2389.93  -3866.98 -1256.46  -4065.98 0  -3866.98 1256.46
+            -3289.45 2389.93  -2389.93 3289.45  -1256.46 3866.98  0 4065.98
+            1256.46 3866.98  2389.93 3289.45  3289.45 2389.93  3866.98 1256.46))
+      (outline (path signal 254  889 2921  1778 2921))
+      (outline (path signal 254  1016 3937  -1016 3937))
+      (outline (path signal 254  -1016 3810  1016 3810))
+      (outline (path signal 254  -1524 3683  1524 3683))
+      (pin Rect[A]Pad_1998.98x1998.98_um 1 0 -1905)
+      (pin Round[A]Pad_1998.98_um 2 0 1905)
+    )
+    (image Discret:C2
+      (outline (path signal 304.8  -3556 1016  3556 1016))
+      (outline (path signal 304.8  3556 1016  3556 -1016))
+      (outline (path signal 304.8  3556 -1016  -3556 -1016))
+      (outline (path signal 304.8  -3556 -1016  -3556 1016))
+      (outline (path signal 304.8  -3556 508  -3048 1016))
+      (pin Round[A]Pad_1397_um 1 -2540 0)
+      (pin Round[A]Pad_1397_um 2 2540 0)
+    )
+    (image "Connect:SIL-2"
+      (outline (path signal 304.8  -2540 -1270  -2540 1270))
+      (outline (path signal 304.8  -2540 1270  2540 1270))
+      (outline (path signal 304.8  2540 1270  2540 -1270))
+      (outline (path signal 304.8  2540 -1270  -2540 -1270))
+      (pin Rect[A]Pad_1397x1397_um 1 -1270 0)
+      (pin Round[A]Pad_1397_um 2 1270 0)
+    )
+    (image Resistors_ThroughHole:Resistor_Horizontal_RM10mm
+      (outline (path signal 381  -2461.26 0  -3477.26 0))
+      (outline (path signal 381  2618.74 0  3634.74 0))
+      (outline (path signal 381  -2461.26 1270  2618.74 1270))
+      (outline (path signal 381  2618.74 1270  2618.74 -1270))
+      (outline (path signal 381  2618.74 -1270  -2461.26 -1270))
+      (outline (path signal 381  -2461.26 -1270  -2461.26 1270))
+      (pin Round[A]Pad_1998.98_um 1 -5001.26 0)
+      (pin Round[A]Pad_1998.98_um 2 5158.74 0)
+    )
+    (image "Connect:SIL-3"
+      (outline (path signal 304.8  -3810 -1270  -3810 1270))
+      (outline (path signal 304.8  -3810 1270  3810 1270))
+      (outline (path signal 304.8  3810 1270  3810 -1270))
+      (outline (path signal 304.8  3810 -1270  -3810 -1270))
+      (outline (path signal 304.8  -1270 1270  -1270 -1270))
+      (pin Rect[A]Pad_1397x1397_um 1 -2540 0)
+      (pin Round[A]Pad_1397_um 2 0 0)
+      (pin Round[A]Pad_1397_um 3 2540 0)
+    )
+    (image "Xav:TO92-EBC"
+      (outline (path signal 304.8  -1270 -2540  2540 1270))
+      (outline (path signal 304.8  2540 1270  2540 2540))
+      (outline (path signal 304.8  2540 2540  1270 3810))
+      (outline (path signal 304.8  1270 3810  -1270 3810))
+      (outline (path signal 304.8  -1270 3810  -3810 1270))
+      (outline (path signal 304.8  -3810 1270  -3810 -1270))
+      (outline (path signal 304.8  -3810 -1270  -2540 -2540))
+      (outline (path signal 304.8  -2540 -2540  -1270 -2540))
+      (pin Rect[A]Pad_1397x1397_um 1 1270 1270)
+      (pin Round[A]Pad_1397_um 2 -1270 1270)
+      (pin Round[A]Pad_1397_um 3 -1270 -1270)
+    )
+    (padstack Round[A]Pad_1397_um
+      (shape (circle F.Cu 1397))
+      (shape (circle B.Cu 1397))
+      (attach off)
+    )
+    (padstack Round[A]Pad_1998.98_um
+      (shape (circle F.Cu 1998.98))
+      (shape (circle B.Cu 1998.98))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1397x1397_um
+      (shape (rect F.Cu -698.5 -698.5 698.5 698.5))
+      (shape (rect B.Cu -698.5 -698.5 698.5 698.5))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1998.98x1998.98_um
+      (shape (rect F.Cu -999.49 -999.49 999.49 999.49))
+      (shape (rect B.Cu -999.49 -999.49 999.49 999.49))
+      (attach off)
+    )
+    (padstack "Via[0-1]_889:635_um"
+      (shape (circle F.Cu 889))
+      (shape (circle B.Cu 889))
+      (attach off)
+    )
+  )
+  (network
+    (net "Net-(C1-Pad1)"
+      (pins C1-1 R2-1 Q1-2)
+    )
+    (net "Net-(C1-Pad2)"
+      (pins C1-2 P1-2 R1-1)
+    )
+    (net "Net-(C2-Pad1)"
+      (pins C2-1 R4-2 R5-1)
+    )
+    (net "Net-(C2-Pad2)"
+      (pins C2-2 RV3-1)
+    )
+    (net "Net-(C3-Pad1)"
+      (pins C3-1 R6-1 RV1-1 RV1-2 Q2-1)
+    )
+    (net GND
+      (pins C3-2 P1-1 P2-1 P3-2 R1-2 R6-2 RV3-3 Q1-1)
+    )
+    (net "Net-(P2-Pad2)"
+      (pins P2-2 RV3-2)
+    )
+    (net "Net-(P3-Pad1)"
+      (pins P3-1 R3-1 R4-1)
+    )
+    (net "Net-(R2-Pad2)"
+      (pins R2-2 RV1-3)
+    )
+    (net "Net-(Q1-Pad3)"
+      (pins R3-2 Q1-3 Q2-2)
+    )
+    (net "Net-(Q2-Pad3)"
+      (pins R5-2 Q2-3)
+    )
+    (class kicad_default "" GND "Net-(C1-Pad1)" "Net-(C1-Pad2)" "Net-(C2-Pad1)"
+      "Net-(C2-Pad2)" "Net-(C3-Pad1)" "Net-(P2-Pad2)" "Net-(P3-Pad1)" "Net-(Q1-Pad3)"
+      "Net-(Q2-Pad3)" "Net-(R2-Pad2)"
+      (circuit
+        (use_via Via[0-1]_889:635_um)
+      )
+      (rule
+        (width 254)
+        (clearance 254.1)
+      )
+    )
+  )
+  (wiring
+  )
+)

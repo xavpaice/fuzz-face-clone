@@ -1,0 +1,115 @@
+Cmp-Mod V01 Created by Cvpcb (2014-jan-25)-product   date = Sun 22 Jun 2014 19:07:54 NZST
+
+BeginCmp
+TimeStamp = /53A54CEB;
+Reference = C1;
+ValeurCmp = 2.2uF;
+IdModule  = Capacitors_ThroughHole:Capacitor8x13RM3.8;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A54D08;
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = Discret:C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A55699;
+Reference = C3;
+ValeurCmp = 22uF;
+IdModule  = Capacitors_ThroughHole:Capacitor8x21RM3.8;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A54FDC;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = Connect:SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A5502B;
+Reference = P2;
+ValeurCmp = CONN_2;
+IdModule  = Connect:SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A56F1B;
+Reference = P3;
+ValeurCmp = CONN_2;
+IdModule  = Connect:SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A54C4E;
+Reference = Q1;
+ValeurCmp = 2N3904;
+IdModule  = Xav:TO92-EBC;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A54C5D;
+Reference = Q2;
+ValeurCmp = 2N3904;
+IdModule  = Xav:TO92-EBC;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A54D49;
+Reference = R1;
+ValeurCmp = 1M;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A54E1B;
+Reference = R2;
+ValeurCmp = 10K;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A54C84;
+Reference = R3;
+ValeurCmp = 8K2;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A54D17;
+Reference = R4;
+ValeurCmp = 820;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A54C93;
+Reference = R5;
+ValeurCmp = 15K;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A55B77;
+Reference = R6;
+ValeurCmp = 5K;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A54CD1;
+Reference = RV1;
+ValeurCmp = B100K;
+IdModule  = Connect:SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A54D2B;
+Reference = RV3;
+ValeurCmp = A1M;
+IdModule  = Connect:SIL-3;
+EndCmp
+
+EndListe
